@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Curso Css</title>
-    <link href="./css/styles.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
-    <link rel="stylesheet" href="./css/normalizes.css">
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./css/normalizes.css" />
   </head>
   <body>
     <header class="hero">
@@ -31,10 +31,10 @@
           </li>
         </ul>
 
-        <img src="./images/close.svg" alt="" class="nav__close">
+        <img src="./images/close.svg" alt="" class="nav__close" />
 
         <div class="nav__menu">
-          <img src="./images/menu.svg" alt="" class="nav__img">
+          <img src="./images/menu.svg" alt="" class="nav__img" />
         </div>
       </nav>
 
@@ -48,5 +48,118 @@
         <a href="" class="cta">Comienza ahora</a>
       </section>
     </header>
+
+    <main>
+      <section class="container about">
+        <h2 class="subtitle">¿Qué aprenderas en este curso?</h2>
+        <p class="about__paragraph">
+          Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom
+          properties, Position, Animaciones, Box Model y más)
+        </p>
+
+        <div class="about__main">
+          <article class="about__icons">
+            <img src="./images/shapes.svg" alt="" class="about__icon" />
+            <h3 class="about__title">CSS Layout</h3>
+            <p class="about__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur facilis ea atque accusamus tenetur quo illo, ut
+              obcaecati, totam odit asperiores voluptas aspernatur voluptatum.
+              Voluptas officiis et labore repudiandae adipisci.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <img src="./images/paint.svg" alt="" class="about__icon" />
+            <h3 class="about__title">Animaciones</h3>
+            <p class="about__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur facilis ea atque accusamus tenetur quo illo, ut
+              obcaecati, totam odit asperiores voluptas aspernatur voluptatum.
+              Voluptas officiis et labore repudiandae adipisci.
+            </p>
+          </article>
+
+          <article class="about__icons">
+            <img src="./images/code.svg" alt="" class="about__icon" />
+            <h3 class="about__title">Sass</h3>
+            <p class="about__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur facilis ea atque accusamus tenetur quo illo, ut
+              obcaecati, totam odit asperiores voluptas aspernatur voluptatum.
+              Voluptas officiis et labore repudiandae adipisci.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!--Section aparte par adarle un fondo de color azul -->
+
+      <section class="knowledge">
+        <div class="knowledge__container container">
+          <div class="knowledge__texts">
+            <h2 class="subtitle">
+              Curso completo de CSS3.¡Domina CSS de una vez por todas!
+            </h2>
+            <p class="knowledge__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+              incidunt facere animi fuga, tempora, nobis quibusdam ex dicta
+              quasi nostrum aliquam voluptas optio omnis nulla error! Ad
+              praesentium soluta officiis.
+            </p>
+            <a href="#" class="cta">Entra al curso</a>
+          </div>
+
+          <figure class="knowledge__picture">
+            <img src="./images/macbook.png" alt="" class="knowledge__img" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="price container">
+        <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+        <div class="price__table">
+          <div class="price__element">
+            <p class="price__name">Flexbox</p>
+            <h3 class="price__price">Free</h3>
+            <div class="price__items">
+              <p class="price__features">Flexbox</p>
+              <p class="price__features">Layouts</p>
+              <p class="price__features">Responsive</p>
+
+              <a href="#" class="price__cta">Empieza ahora</a>
+            </div>
+          </div>
+
+          <!--Segundo price--Elemento-->
+
+          <div class="price__element">
+            <p class="price__name">Grid</p>
+            <h3 class="price__price">$30/mes</h3>
+            <div class="price__items">
+              <p class="price__features">Grid</p>
+              <p class="price__features">Implicit Grid</p>
+              <p class="price__features">Responsive</p>
+
+              <a href="#" class="price__cta">Empieza ahora</a>
+            </div>
+          </div>
+
+          <!--Tercero price element --->
+
+          <div class="price__element price__element--best">
+            <p class="price__name">Animaciones</p>
+            <h3 class="price__price">$40/mes</h3>
+            <div class="price__items">
+              <p class="price__features">Animation</p>
+              <p class="price__features">Transition</p>
+              <p class="price__features">Render Website</p>
+
+              <a href="#" class="price__cta">Empieza ahora</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
