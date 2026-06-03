@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Curso Css</title>
-    <link href="./css/styles.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
-    <link rel="stylesheet" href="./css/normalizes.css" />
+    <link href="./css/styles.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/normalizes.css">
   </head>
   <body>
     <header class="hero">
@@ -31,10 +31,10 @@
           </li>
         </ul>
 
-        <img src="./images/close.svg" alt="" class="nav__close" />
+        <img src="./images/close.svg" alt="" class="nav__close">
 
         <div class="nav__menu">
-          <img src="./images/menu.svg" alt="" class="nav__img" />
+          <img src="./images/menu.svg" alt="" class="nav__img">
         </div>
       </nav>
 
@@ -59,7 +59,7 @@
 
         <div class="about__main">
           <article class="about__icons">
-            <img src="./images/shapes.svg" alt="" class="about__icon" />
+            <img src="./images/shapes.svg" alt="" class="about__icon">
             <h3 class="about__title">CSS Layout</h3>
             <p class="about__paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +70,7 @@
           </article>
 
           <article class="about__icons">
-            <img src="./images/paint.svg" alt="" class="about__icon" />
+            <img src="./images/paint.svg" alt="" class="about__icon">
             <h3 class="about__title">Animaciones</h3>
             <p class="about__paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -81,7 +81,7 @@
           </article>
 
           <article class="about__icons">
-            <img src="./images/code.svg" alt="" class="about__icon" />
+            <img src="./images/code.svg" alt="" class="about__icon">
             <h3 class="about__title">Sass</h3>
             <p class="about__paragraph">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -111,7 +111,7 @@
           </div>
 
           <figure class="knowledge__picture">
-            <img src="./images/macbook.png" alt="" class="knowledge__img" />
+            <img src="./images/macbook.png" alt="" class="knowledge__img">
           </figure>
         </div>
       </section>
@@ -133,7 +133,7 @@
 
           <!--Segundo price--Elemento-->
 
-          <div class="price__element">
+          <div class="price__element price__element--best">
             <p class="price__name">Grid</p>
             <h3 class="price__price">$30/mes</h3>
             <div class="price__items">
@@ -147,7 +147,7 @@
 
           <!--Tercero price element --->
 
-          <div class="price__element price__element--best">
+          <div class="price__element">
             <p class="price__name">Animaciones</p>
             <h3 class="price__price">$40/mes</h3>
             <div class="price__items">
@@ -158,6 +158,80 @@
               <a href="#" class="price__cta">Empieza ahora</a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!--Sección de testimonios-->
+
+      <section class="testimony">
+        <div class="testimony__container container">
+          <img
+            src="/images/leftarrow.svg"
+            class="testimony__arrow"
+            id="before"
+            alt=""
+>
+          <section class="testimony__body testimony__body--show" data-id="1">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombres es Jordan Alexander
+                <span class="testimony__course">Estudiante de CSS.</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ab
+                asperiores odit, autem veniam voluptates repudiandae corrupti
+                exercitationem nam explicabo cum hic id amet, reprehenderit
+                dignissimos, temporibus magnam cumque maxime.
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="/images/face.jpg" alt="" class="testimony__img">
+            </figure>
+          </section>
+
+          <!--Segundo testimonio-->
+          <section class="testimony__body" data-id="2">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombres es Alejandra Perez
+                <span class="testimony__course">Estudiante de CSS.</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ab
+                asperiores odit, autem veniam voluptates repudiandae corrupti
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="/images/face2.jpg" alt="" class="testimony__img">
+            </figure>
+          </section>
+
+          <!--Tercer testimonio-->
+          <section class="testimony__body" data-id="3">
+            <div class="testimony__texts">
+              <h2 class="subtitle">
+                Mi nombres es Karen Arteaga
+                <span class="testimony__course">Estudiante de CSS.</span>
+              </h2>
+              <p class="testimony__review">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ab
+                asperiores odit, autem veniam voluptates repudiandae corrupti
+              </p>
+            </div>
+
+            <figure class="testimony__picture">
+              <img src="/images/face3.jpg" alt="" class="testimony__img">
+            </figure>
+          </section>
+
+          <img
+            src="images/rightarrow.svg"
+            class="testimony__arrow"
+            id="next"
+            alt=""
+>
         </div>
       </section>
     </main>
